@@ -1,19 +1,36 @@
 # Avalização Final da Disciplina de Mineração de Dados - Hub IA
 
-### Comandos Git/Github
+## Criar um ambiente virtual
+Criar um ambiente virtual para instalar as bibliotecas e executar o projeto.  
+Nesse projeto utilizei o pacote **Anaconda**.  
+Para criar o ambiente virtual deve utilizar o comando ```conda```
+```python
+conda create -n <nome_ambiente> python=3.13
+```
+Para criar o ambiente virtual com o python utilize o comando abaixo:
+```python
+python -m venv venv
+```
 
-* Cria uma repositorio vazio\
-    git init .
+## Ativar o ambiente virtual
+Utilizando o pacote **Anaconda**
+```python
+conda activate <nome_ambiente>
+```
 
-* Adiciona os arquivos para o git\
-    git add .
+## Instalar as bibliotecas
 
-* Comita as alterações\
-    git commit -m "<mensagem do commit>"
+O arquivo *requirements.txt* contém todas as bibliotecas necessárias para utilizar no projeto.  
+Para instalar execute o comando abaixo.
+```python
+pip install -r requirements.txt
+```
 
-* Vincula o repositorio local ao remote que está no Github\ 
-    git remote add origin https://github.com/fernandocfabril/acidentes-transito-br.git
+## Abrir o notebook com o Jupyter
+```python
+jupyter notebook
+```
 
-* Envia os commits para o repositorio remoto\
-    git push -u origin main
+
+
 
