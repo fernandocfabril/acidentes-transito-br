@@ -1,4 +1,4 @@
-# Avalização Final da Disciplina de Mineração de Dados - Hub IA
+# Avalização Final da Disciplina de Mineração de Dados - Hub de Inteligência Artificial - Turma 8 - Sescoop
 
 ## Criar um ambiente virtual
 Criar um ambiente virtual para instalar as bibliotecas e executar o projeto.  
@@ -31,6 +31,28 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
+## Insights  
+* Em um mesmo acidentes tiveram 95 pessoas envolvidas:  
+Pesquisando pela internet sobre o assunto, achei uma reportagem sobre esse acidente: [Veículos engavetam em grave acidente na BR-277, em Balsa Nova; PRF diz que pelo menos cinco pessoas morreram](https://g1.globo.com/pr/parana/noticia/2023/09/02/grave-acidente-br-277.ghtml)  
+Inclusive na reportagem fala em 7 mortes, mas depois a PRF corrigiu para 5.  
+Na reportagem fala em 50 veículos envolvidos no acidente e nesse dataset consta 131 veículos.  
+
+* Correlação entre as variáveis númericas
+  - Correlação Forte:  
+    Feridos com Feridos Leves.  
+    Ilesos com Pessoas.  
+    Veiculos com Ignorados.  
+
+  - Correlação Moderada:  
+    Feridos Leves com Pessoas e Feridos Graves.  
+    Feridos com Pessoas.  
+    Veiculos com Pessoas.  
+* A causa de acidente com mais acidente é **"Reação tardia ou ineficiente do condutor"**
+
+* Acidentes na cidade de Maringá/PR
+  *  Nos dias de Semana acontece mais acidentes do que no final de semana.  
+  * No Sábado e Sexta-Feira são os 2 dias com mais acidentes, em números e percentualmente.
+  * Os números de acidentes são maiores em PLENO DIA e PLENA NOITE, respectivamente.  
 
 
 
